@@ -1,0 +1,21 @@
+{
+  "name": "sqlite-auth-service",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "node --test test/auth.test.js",
+    "demo": "node examples/demo.js"
+  },
+  "keywords": [
+    "oauth",
+    "pkce",
+    "refresh-token-rotation",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Node.js + SQLite 授权服务：短期授权码（PKCE）、刷新令牌轮换与令牌家族重放撤销",
+  "dependencies": {
+    "better-sqlite3": "^11.10.0"
+  }
+}
